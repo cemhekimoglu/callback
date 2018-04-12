@@ -14,13 +14,10 @@
 // findWaldo(["Alice", "Bob", "Waldo", "Winston"], positionFound);
 
 
-// var findWaldo = ["Alice", "Bob", "Waldo", "Winston"]
-// findWaldo.forEach(function(element, food) {
-//   if(element === "Waldo") {
-//   console.log("Found Waldo at index " + food +"!");
-//   }
-// });
-
-findWaldo(["Alice", "Bob", "Waldo", "Winston"], function(result) {
-  console.log("The result is:", result);
+var findWaldo = ["Alice", "Bob", "Waldo", "Winston"]
+findWaldo.forEach(function(element, food) {
+  if(element === "Waldo") {
+  console.log("Found Waldo at index " + food +"!");
+  }
 });
+
